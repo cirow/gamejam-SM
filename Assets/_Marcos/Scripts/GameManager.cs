@@ -12,6 +12,7 @@ public enum IngameState {
 public class GameManager : MonoBehaviour {
 
     public LevelManager levelManager;
+    public GameObject playerHud;
 
     [Space (10)]
     public GameObject disabledPlayerPrefab;
@@ -41,26 +42,28 @@ public class GameManager : MonoBehaviour {
 	}
 
     void Update () {
-        if (playerInput.IsPausePressedDown ()) {
-            TogglePause ();
-        }
+        if (currentGameState != IngameState.GameOver) {
+            if (playerInput.IsPausePressedDown ()) {
+                TogglePause ();
+            }
 
-		if (blockPlayerCoroutine == null && playerInput.IsResetPressedDown ()) {
-            DisableCurrentPlayer ();
+            if (blockPlayerCoroutine == null && playerInput.IsResetPressedDown ()) {
+                DisableCurrentPlayer ();
+            }
         }
 	}
 
     public void DisableCurrentPlayer () {
-        Vector3 playerPosition = player.position;
-        player.ResetPlayerPosition ();
-        CreateCadaver (playerPosition);
-
         lives.SubtractLife ();
         if (lives.currentLivesCount <= 0) {
             GameOver ();
-        }
+        } else {
+            Vector3 playerPosition = player.position;
+            player.ResetPlayerPosition ();
+            CreateCadaver (playerPosition);
 
-        blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
+            blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
+        }
     }
 
     private void CreateCadaver (Vector3 position) {
@@ -79,10 +82,13 @@ public class GameManager : MonoBehaviour {
 
     #region Ingame UI
     public void TogglePause () {
-        if (gamePaused) {
-            UnpauseGame ();
-        } else {
-            PauseGame ();
+        switch (currentGameState) {
+            case IngameState.Running:
+                PauseGame ();
+                break;
+            case IngameState.Paused:
+                UnpauseGame ();
+                break;
         }
     }
 
@@ -90,7 +96,7 @@ public class GameManager : MonoBehaviour {
         pauseScreen.ShowPauseScreen (true);
         Time.timeScale = 0;
         playerInput.BlockPlayerInput (true);
-        gamePaused = true;
+        currentGameState = IngameState.Paused;
     }
 
     private void UnpauseGame () {
@@ -99,7 +105,7 @@ public class GameManager : MonoBehaviour {
         if (blockPlayerCoroutine == null) {
             playerInput.BlockPlayerInput (false);
         }
-        gamePaused = false;
+        currentGameState = IngameState.Running;
     }
 
     public void RestartLevel () {
@@ -113,7 +119,10 @@ public class GameManager : MonoBehaviour {
     }
 
     private void GameOver () {
-
+        playerInput.BlockPlayerInput (true);
+        playerHud.SetActive (false);
+        currentGameState = IngameState.GameOver;
+        pauseScreen.ShowGameOverScreen ();
     }
     #endregion
 
