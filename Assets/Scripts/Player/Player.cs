@@ -237,5 +237,15 @@ public class Player : MonoBehaviour {
             leverScript.Activate ();
         }
     }
+
+    public Vector2 GetSpawnPoint()
+    {
+        return originPosition;
+    }
+
+    public void ChangeSpawn(Vector2 newSpawn)
+    {
+        originPosition = newSpawn;
+    }
     #endregion
 }

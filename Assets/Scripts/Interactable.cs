@@ -7,7 +7,7 @@ public abstract class Interactable : MonoBehaviour
 
     public bool toggable;
 
-    [HideInInspector]
+    [SerializeField]
     protected bool isOn = false;
 
     public abstract bool Interact();
