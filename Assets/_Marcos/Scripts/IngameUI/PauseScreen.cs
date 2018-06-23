@@ -9,7 +9,7 @@ public class PauseScreen : MonoBehaviour {
     public Button resumeButton;
     public Button menuButton;
     
-    private void Awake () {
+    private void Start () {
         ShowPauseScreen (false);
     }
 

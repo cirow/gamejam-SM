@@ -11,6 +11,9 @@ public enum IngameState {
 [RequireComponent (typeof (PlayerInput))]
 public class GameManager : MonoBehaviour {
 
+    public LevelManager levelManager;
+
+    [Space (10)]
     public GameObject disabledPlayerPrefab;
 
     public IngameState currentGameState { get; private set; }
@@ -100,8 +103,13 @@ public class GameManager : MonoBehaviour {
     }
 
     public void RestartLevel () {
-        UnpauseGame ();
+        Time.timeScale = 1;
         SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+    }
+
+    public void ReturnToMainMenu () {
+        Time.timeScale = 1;
+        levelManager.LoadLevel ("MainMenu");
     }
 
     private void GameOver () {
