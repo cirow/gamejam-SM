@@ -6,6 +6,10 @@ public class PlayerInput : MonoBehaviour {
 
     public bool blockPlayerInput;
 
+    public bool IsResetPressedDown () {
+        return Input.GetKeyDown (KeyCode.R);
+    }
+
     public bool IsJumpPressedDown () {
         if (blockPlayerInput) {
             return false;

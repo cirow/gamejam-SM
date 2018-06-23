@@ -43,6 +43,9 @@ public class Player : MonoBehaviour {
     private CameraBehaviour cameraBehaviour;
     private PlayerInput playerInput;
 
+    //private SpawnPoint[] spawnPoints;
+    private Vector2 originPosition;
+
     private Rigidbody2D rigid;
 
     private float currentSpeed;
@@ -70,8 +73,9 @@ public class Player : MonoBehaviour {
     #region MonoBehaviour
     void Awake () {
         cameraBehaviour = FindObjectOfType<CameraBehaviour> ();
-
         playerInput = FindObjectOfType<PlayerInput> ();
+
+        originPosition = transform.position;
 
         if (playerInput == null) {
             playerInput = gameObject.AddComponent<PlayerInput> ();
@@ -155,7 +159,9 @@ public class Player : MonoBehaviour {
     }
 
     public void ResetPlayerPosition () {
-
+        facingRight = true;
+        velocity = Vector3.zero;
+        transform.position = originPosition;
     }
 
     #region Item Interaction
