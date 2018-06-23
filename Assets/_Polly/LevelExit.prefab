@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1304331682257486}
+  m_RootGameObject: {fileID: 1139012396421286}
   m_IsPrefabParent: 1
---- !u!1 &1304331682257486
+--- !u!1 &1139012396421286
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4342929710908968}
-  - component: {fileID: 33498525008835352}
-  - component: {fileID: 23476594975178802}
-  - component: {fileID: 61466879499796706}
-  - component: {fileID: 114508428695826730}
-  m_Layer: 10
-  m_Name: PushButton
+  - component: {fileID: 4244059132363964}
+  - component: {fileID: 33656824664171830}
+  - component: {fileID: 23443842515830382}
+  - component: {fileID: 61130053111845438}
+  - component: {fileID: 114350325109696926}
+  m_Layer: 0
+  m_Name: LevelExit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4342929710908968
+--- !u!4 &4244059132363964
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304331682257486}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.92, y: -18.15, z: 0.0290332}
-  m_LocalScale: {x: 2.3685727, y: 0.78674465, z: 1}
+  m_GameObject: {fileID: 1139012396421286}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071061, w: 0.70710754}
+  m_LocalPosition: {x: 38.4, y: -15.1, z: 0}
+  m_LocalScale: {x: 6.8971276, y: 1.2500012, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23476594975178802
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
+--- !u!23 &23443842515830382
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304331682257486}
+  m_GameObject: {fileID: 1139012396421286}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: eacbf4832da3b5240a2f18a7d6298a41, type: 2}
+  - {fileID: 2100000, guid: 90dfa98c6ee966444959ed1b50dded62, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66,7 +66,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
@@ -78,19 +78,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33498525008835352
+--- !u!33 &33656824664171830
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304331682257486}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!61 &61466879499796706
+  m_GameObject: {fileID: 1139012396421286}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!61 &61130053111845438
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304331682257486}
+  m_GameObject: {fileID: 1139012396421286}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -108,19 +108,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.15, y: 1}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114508428695826730
+--- !u!114 &114350325109696926
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304331682257486}
+  m_GameObject: {fileID: 1139012396421286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 529a52d3a89fd8740891f5fa79d0e6fe, type: 3}
+  m_Script: {fileID: 11500000, guid: d6cd8b07161ec924aad6eb3aece5fba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targets:
-  - {fileID: 0}
-  radiusBox: {x: 1.15, y: 1}
+  toggable: 0
+  isOn: 0
+  keycards: []
