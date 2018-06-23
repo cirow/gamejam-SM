@@ -44,7 +44,8 @@ public class Player : MonoBehaviour {
     private PlayerInput playerInput;
 
     //private SpawnPoint[] spawnPoints;
-    private Vector2 originPosition;
+    [SerializeField]
+    private Transform spawnPoint;
 
     private Rigidbody2D rigid;
 
@@ -80,7 +81,7 @@ public class Player : MonoBehaviour {
         cameraBehaviour = FindObjectOfType<CameraBehaviour> ();
         playerInput = FindObjectOfType<PlayerInput> ();
 
-        originPosition = transform.position;
+
 
         if (playerInput == null) {
             playerInput = gameObject.AddComponent<PlayerInput> ();
@@ -168,7 +169,7 @@ public class Player : MonoBehaviour {
     public void ResetPlayerPosition () {
         facingRight = true;
         velocity = Vector3.zero;
-        transform.position = originPosition;
+        transform.position = spawnPoint.position;
     }
 
     #region Item Interaction
@@ -240,12 +241,13 @@ public class Player : MonoBehaviour {
 
     public Vector2 GetSpawnPoint()
     {
-        return originPosition;
+        return spawnPoint.position;
     }
 
     public void ChangeSpawn(Vector2 newSpawn)
     {
-        originPosition = newSpawn;
+        spawnPoint.position = newSpawn;
+
     }
     #endregion
 }
