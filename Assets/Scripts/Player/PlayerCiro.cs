@@ -199,36 +199,28 @@ public class PlayerCiro : MonoBehaviour {
     }
     #endregion
 
-    #region LeverInteraction
+    #region Lever Interaction
     private GameObject leverInRange;
     private Lever leverScript;
 
-    private void CheckInteractableRadius()
-    {
-  
-        Collider2D collider = Physics2D.OverlapCircle(transform.position, interactionRadius, LayerMask.GetMask("Lever"));
+    private void CheckInteractableRadius () {
 
-        if (collider)
-        {
+        Collider2D collider = Physics2D.OverlapCircle (transform.position, interactionRadius, LayerMask.GetMask ("Lever"));
+
+        if (collider) {
             Debug.DrawLine (transform.position, collider.transform.position);
             leverInRange = collider.gameObject;
-            leverScript = leverInRange.GetComponent<Lever>();
-        }
-        else
-        {
+            leverScript = leverInRange.GetComponent<Lever> ();
+        } else {
             leverInRange = null;
             leverScript = null;
         }
     }
 
-    private void ToggleLever()
-    {
-        if(Input.GetButtonDown("Use Item") && leverInRange)
-        {
-            leverScript.Activate();
+    private void ToggleLever () {
+        if (Input.GetButtonDown ("Use Item") && leverInRange) {
+            leverScript.Activate ();
         }
     }
-
-
     #endregion
 }

@@ -69,6 +69,11 @@ public class Player : MonoBehaviour {
 
     private float timeToWallUnstick;
     // >>>>>>>>>>>>>>>>>>>
+    
+    // Lever
+    private GameObject leverInRange;
+    private Lever leverScript;
+    // >>>>>>>>>>>>>>>>>>>
 
     #region MonoBehaviour
     void Awake () {
@@ -209,5 +214,26 @@ public class Player : MonoBehaviour {
         }
     }
     #endregion
-    
+
+    #region Lever Interaction
+    private void CheckInteractableRadius () {
+
+        Collider2D collider = Physics2D.OverlapCircle (transform.position, interactionRadius, LayerMask.GetMask ("Lever"));
+
+        if (collider) {
+            Debug.DrawLine (transform.position, collider.transform.position);
+            leverInRange = collider.gameObject;
+            leverScript = leverInRange.GetComponent<Lever> ();
+        } else {
+            leverInRange = null;
+            leverScript = null;
+        }
+    }
+
+    private void ToggleLever () {
+        if (Input.GetButtonDown ("Use Item") && leverInRange) {
+            leverScript.Activate ();
+        }
+    }
+    #endregion
 }
