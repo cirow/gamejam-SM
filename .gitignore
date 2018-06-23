@@ -34,3 +34,13 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+gamejam-SM/Library/
+
+gamejam-SM/.vs/
+
+gamejam-SM/ProjectSettings/GraphicsSettings.asset
+
+gamejam-SM/ProjectSettings/ProjectSettings.asset
+
+gamejam-SM/Temp/
