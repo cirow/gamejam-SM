@@ -38,6 +38,14 @@ public class Player : MonoBehaviour {
     public bool moving { get; private set; }
     public bool sprinting { get; private set; }
 
+    public bool grounded
+    {
+        get
+        {
+            return controller.collisions.below;
+        }
+    }
+
     private int itemLayerMask;
 
     private CameraBehaviour cameraBehaviour;
@@ -50,7 +58,7 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rigid;
 
     private float currentSpeed;
-    private bool hasJumped, floored;
+    private bool hasJumped;
 
     private GameObject itemInRange;
     private Item itemScript;
@@ -65,6 +73,13 @@ public class Player : MonoBehaviour {
     private float minJumpVelocity;
 
     private Vector3 velocity;
+    public Vector3 Velocity
+    {
+        get
+        {
+            return velocity;
+        }
+    }
 
     private float velocityXSmoothing;
 

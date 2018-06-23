@@ -18,17 +18,15 @@ public class CameraBehaviour : MonoBehaviour {
     
 	void Awake () {
         player = FindObjectOfType<Player> ();
-        currentOffset = new Vector2 (player.facingRight ? cameraOffset.x : -cameraOffset.x, cameraOffset.y);
 
         cameraDistance = -10;
 	}
-	
-	void Start () {
-		
-	}
+
+    void Start () {
+        currentOffset = new Vector2 (player.facingRight ? cameraOffset.x : -cameraOffset.x, cameraOffset.y);
+    }
 
     void Update () {
-
         Vector3 targetPos = CalculateTargetPosition ();
         transform.position = Vector3.Lerp (transform.position, targetPos, Time.deltaTime * followSpeed);
         //transform.position = targetPos;
