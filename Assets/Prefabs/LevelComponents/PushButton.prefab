@@ -121,11 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529a52d3a89fd8740891f5fa79d0e6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Prefabs/PushButton.prefab
-  targets: []
-  radiusBox: {x: 1.15, y: 1.1}
-=======
   targets:
   - {fileID: 0}
   radiusBox: {x: 1.15, y: 1.15}
->>>>>>> master:Assets/Prefabs/LevelComponents/PushButton.prefab
