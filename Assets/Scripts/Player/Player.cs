@@ -41,6 +41,7 @@ public class Player : MonoBehaviour {
     private int itemLayerMask;
 
     private CameraBehaviour cameraBehaviour;
+    private PlayerInput playerInput;
 
     private Rigidbody2D rigid;
 
@@ -70,6 +71,12 @@ public class Player : MonoBehaviour {
     void Awake () {
         cameraBehaviour = FindObjectOfType<CameraBehaviour> ();
 
+        playerInput = FindObjectOfType<PlayerInput> ();
+
+        if (playerInput == null) {
+            playerInput = gameObject.AddComponent<PlayerInput> ();
+        }
+
         itemLayerMask = LayerMask.GetMask ("Item");
         
         rigid = GetComponent<Rigidbody2D> ();
@@ -84,7 +91,7 @@ public class Player : MonoBehaviour {
 	}
 
     void Update () {
-        if (Input.GetButtonDown ("Jump")) {
+        if (playerInput.IsJumpPressedDown ()) {
             lastJumpRequest = Time.time;
         }
 
@@ -108,7 +115,7 @@ public class Player : MonoBehaviour {
     }
 
     private void LaguesUpdate () {
-        Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
+        Vector2 input = playerInput.GetRawMovementInput ();
         int wallDirX = (controller.collisions.left) ? -1 : 1;
         
         float targetVelocityX = input.x * (sprinting ? sprintSpeed : moveSpeed);
@@ -122,7 +129,7 @@ public class Player : MonoBehaviour {
                 velocity.y = maxJumpVelocity;
             }
         }
-        if (Input.GetButtonUp ("Jump")) {
+        if (playerInput.IsJumpPressedUp ()) {
             if (velocity.y > minJumpVelocity) {
                 velocity.y = minJumpVelocity;
             }
@@ -130,7 +137,7 @@ public class Player : MonoBehaviour {
         
         // todo 1) Keep sprinting speed during a jump (to simulate momentum)
         // todo 2) Disallow sprinting if the player was not sprinting when he triggered a jump
-        sprinting = Input.GetButton ("Sprint") || Input.GetAxis ("Sprint") != 0; // Sprint as axis, since the Left and Right Triggers of the Xbox Controller are mapped as triggers
+        sprinting = playerInput.IsSprinting ();
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move (velocity * Time.deltaTime, input);
@@ -153,7 +160,7 @@ public class Player : MonoBehaviour {
 
     #region Item Interaction
     private void GrabItem () {
-        if (Input.GetButtonDown ("Use Item") && itemInRange) {
+        if (playerInput.IsUseItemPressedDown () && itemInRange) {
             Destroy (itemInRange);
             itemInRange = null;
 
