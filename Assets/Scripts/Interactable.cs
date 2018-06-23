@@ -8,7 +8,7 @@ public abstract class Interactable : MonoBehaviour
     public bool toggable;
 
     [HideInInspector]
-    public bool isOn = false;
+    protected bool isOn = false;
 
     public abstract bool Interact();
     
