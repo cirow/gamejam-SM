@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23443842515830382}
   - component: {fileID: 61130053111845438}
   - component: {fileID: 114350325109696926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LevelExit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1139012396421286}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071061, w: 0.70710754}
-  m_LocalPosition: {x: 38.4, y: -15.1, z: 0}
+  m_LocalPosition: {x: 38.7, y: -15.1, z: 0}
   m_LocalScale: {x: 6.8971276, y: 1.2500012, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
