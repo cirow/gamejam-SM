@@ -73,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,18 +126,18 @@ TextureImporter:
       name: Rob_Idle_0
       rect:
         serializedVersion: 2
-        x: 70
-        y: 1663
-        width: 265
-        height: 417
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1664
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abb6ed919ca97a242b327c8d1cbfa224
+      spriteID: af614131939ae7e41ae49fe0a86b8cdc
       vertices: []
       indices: 
       edges: []
@@ -146,18 +146,18 @@ TextureImporter:
       name: Rob_Idle_1
       rect:
         serializedVersion: 2
-        x: 473
-        y: 1663
-        width: 258
-        height: 417
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 1664
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47789b07ef9d19f4a9d285decf578aa3
+      spriteID: 4d29bd3a241d0ed4cb61773c7a826346
       vertices: []
       indices: 
       edges: []
@@ -166,18 +166,18 @@ TextureImporter:
       name: Rob_Idle_2
       rect:
         serializedVersion: 2
-        x: 878
-        y: 1663
-        width: 251
-        height: 417
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 1664
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67660c92df4b4c141b89df5727e2fdf5
+      spriteID: e56e27c84f6dd054c9e6be8efc8988ea
       vertices: []
       indices: 
       edges: []
@@ -186,18 +186,18 @@ TextureImporter:
       name: Rob_Idle_3
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1663
-        width: 245
+        x: 1200
+        y: 1664
+        width: 400
         height: 416
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeab4af2f9127cd4e8db880e01e7b7db
+      spriteID: 6768956f8f6ea6d45850204f32303260
       vertices: []
       indices: 
       edges: []
@@ -206,18 +206,18 @@ TextureImporter:
       name: Rob_Idle_4
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 1663
-        width: 242
-        height: 415
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1600
+        y: 1664
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad63f07d148daf47ac38096712ce8f7
+      spriteID: 317625b2bf4a5bd42930574666747ce2
       vertices: []
       indices: 
       edges: []
@@ -226,18 +226,18 @@ TextureImporter:
       name: Rob_Idle_5
       rect:
         serializedVersion: 2
-        x: 2080
-        y: 1663
-        width: 239
-        height: 415
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2000
+        y: 1664
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eab7ada3a7716b947a05e841b9ea9c4c
+      spriteID: b8220d8be0024a142bb6f5463a0f8b1a
       vertices: []
       indices: 
       edges: []
@@ -246,18 +246,18 @@ TextureImporter:
       name: Rob_Idle_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1247
-        width: 235
-        height: 413
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1248
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c8959075c37814697b77681c82f28e
+      spriteID: 32bab1b4e2b633042943f2ae5e46d16c
       vertices: []
       indices: 
       edges: []
@@ -266,18 +266,18 @@ TextureImporter:
       name: Rob_Idle_7
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1247
-        width: 233
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 1248
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c479b095be0c6d54ca8348e8972f3890
+      spriteID: 1185325f4992415428b6f0ba6dffc704
       vertices: []
       indices: 
       edges: []
@@ -286,18 +286,18 @@ TextureImporter:
       name: Rob_Idle_8
       rect:
         serializedVersion: 2
-        x: 884
-        y: 1247
-        width: 229
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 1248
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91361559e07824c46a60c67486dbedf0
+      spriteID: f69428037bceeef4da47bb517c527e38
       vertices: []
       indices: 
       edges: []
@@ -306,18 +306,18 @@ TextureImporter:
       name: Rob_Idle_9
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1247
-        width: 225
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1200
+        y: 1248
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 194d490d537e85342a236a7c633b6ebf
+      spriteID: f3ee2d27d34fa3545aa3c0ba7dcc3a2d
       vertices: []
       indices: 
       edges: []
@@ -326,18 +326,18 @@ TextureImporter:
       name: Rob_Idle_10
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 1247
-        width: 223
-        height: 411
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1600
+        y: 1248
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32572a3f228a1444bf065ad594c2b99
+      spriteID: 392613f198e2da742bc90dc99ffe5c4e
       vertices: []
       indices: 
       edges: []
@@ -346,18 +346,18 @@ TextureImporter:
       name: Rob_Idle_11
       rect:
         serializedVersion: 2
-        x: 2080
-        y: 1247
-        width: 224
-        height: 410
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2000
+        y: 1248
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe2ac41a0d70e8f40803ae623c4aa423
+      spriteID: 11d651350894cc144be3abe42366cae4
       vertices: []
       indices: 
       edges: []
@@ -366,18 +366,18 @@ TextureImporter:
       name: Rob_Idle_12
       rect:
         serializedVersion: 2
-        x: 80
-        y: 831
-        width: 224
-        height: 410
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 832
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2941c591c2541c445bc5021e84ebd0eb
+      spriteID: 9d283cd909255ac4fbbfaad908c4ed40
       vertices: []
       indices: 
       edges: []
@@ -386,18 +386,18 @@ TextureImporter:
       name: Rob_Idle_13
       rect:
         serializedVersion: 2
-        x: 480
-        y: 831
-        width: 224
-        height: 409
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 832
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6094522efef6944fb3d07735e11d78f
+      spriteID: 28985968c742c8345a49cca54ff176dc
       vertices: []
       indices: 
       edges: []
@@ -406,18 +406,18 @@ TextureImporter:
       name: Rob_Idle_14
       rect:
         serializedVersion: 2
-        x: 880
-        y: 831
-        width: 224
-        height: 408
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 832
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa360ccdf9e62704b867d8a7f98f38f2
+      spriteID: c8711e6a28d25394b8362f8c8b9e6a6d
       vertices: []
       indices: 
       edges: []
@@ -426,18 +426,18 @@ TextureImporter:
       name: Rob_Idle_15
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 831
-        width: 224
-        height: 408
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1200
+        y: 832
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c337140d9eb1f47b6b6efc44610046
+      spriteID: 7277e4a7c28775145b1f1ed5d7373eec
       vertices: []
       indices: 
       edges: []
@@ -446,18 +446,18 @@ TextureImporter:
       name: Rob_Idle_16
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 831
-        width: 224
-        height: 408
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1600
+        y: 832
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca5f3c0db1318e45b837ee747bdbac3
+      spriteID: bf40ad2ed7f0d4247ada9ff7b0844cdb
       vertices: []
       indices: 
       edges: []
@@ -466,18 +466,18 @@ TextureImporter:
       name: Rob_Idle_17
       rect:
         serializedVersion: 2
-        x: 2084
-        y: 831
-        width: 224
-        height: 409
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2000
+        y: 832
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f46f3309729258a45835fc81479ce998
+      spriteID: 95b112d855ccc50448fcef8a8ad54920
       vertices: []
       indices: 
       edges: []
@@ -486,18 +486,18 @@ TextureImporter:
       name: Rob_Idle_18
       rect:
         serializedVersion: 2
-        x: 80
-        y: 415
-        width: 224
-        height: 409
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 416
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55d13b708a44d1849970f4db98118e14
+      spriteID: 5ab06caf4cb2d8c459883ea0bab0fb5d
       vertices: []
       indices: 
       edges: []
@@ -506,18 +506,18 @@ TextureImporter:
       name: Rob_Idle_19
       rect:
         serializedVersion: 2
-        x: 480
-        y: 415
-        width: 224
-        height: 410
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 416
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b02abada1271c7c40bdb1011e51352ee
+      spriteID: c622355e386492d478515e40603c248b
       vertices: []
       indices: 
       edges: []
@@ -526,18 +526,18 @@ TextureImporter:
       name: Rob_Idle_20
       rect:
         serializedVersion: 2
-        x: 880
-        y: 415
-        width: 224
-        height: 411
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 416
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c7dac0ae7353e54ebd12282f7084cac
+      spriteID: 2ec87ba4fd30c864c9b5fdd864eeb157
       vertices: []
       indices: 
       edges: []
@@ -546,18 +546,18 @@ TextureImporter:
       name: Rob_Idle_21
       rect:
         serializedVersion: 2
-        x: 1284
-        y: 415
-        width: 228
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1196
+        y: 416
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1863c85e29b084646b747f412f4a01c4
+      spriteID: 82f1a8b1f675b6f4cb24ea691a65b4a5
       vertices: []
       indices: 
       edges: []
@@ -566,18 +566,18 @@ TextureImporter:
       name: Rob_Idle_22
       rect:
         serializedVersion: 2
-        x: 1678
-        y: 415
-        width: 250
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1600
+        y: 416
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bcee459c0e928a41889023972020f6d
+      spriteID: eb90b38056d00e249862676951aa21c5
       vertices: []
       indices: 
       edges: []
@@ -586,18 +586,18 @@ TextureImporter:
       name: Rob_Idle_23
       rect:
         serializedVersion: 2
-        x: 2076
-        y: 415
-        width: 257
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2000
+        y: 416
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40943c0ebc03859479c6eafc3badf20b
+      spriteID: e2782a15a89b4d640952f0ccd87472e2
       vertices: []
       indices: 
       edges: []
@@ -606,18 +606,18 @@ TextureImporter:
       name: Rob_Idle_24
       rect:
         serializedVersion: 2
-        x: 80
+        x: 0
         y: 0
-        width: 234
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dc563de3e9a3a84aafb025c16a0dc6e
+      spriteID: 0c24776e5b29b744f918d4a904312959
       vertices: []
       indices: 
       edges: []
@@ -626,18 +626,18 @@ TextureImporter:
       name: Rob_Idle_25
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 238
-        height: 414
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 404
+        y: 4
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4a3d263e504d6a48ac319f1b55a5811
+      spriteID: 007c91b46aa3b6140ad3e58bbe0c6112
       vertices: []
       indices: 
       edges: []
@@ -646,18 +646,18 @@ TextureImporter:
       name: Rob_Idle_26
       rect:
         serializedVersion: 2
-        x: 882
+        x: 800
         y: 0
-        width: 241
-        height: 414
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 561e48b40d5947743bdb09aa086ec6cc
+      spriteID: 9d368bacdda14b848813478d6794dfda
       vertices: []
       indices: 
       edges: []
@@ -666,18 +666,18 @@ TextureImporter:
       name: Rob_Idle_27
       rect:
         serializedVersion: 2
-        x: 1278
+        x: 1200
         y: 0
-        width: 243
-        height: 414
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e65b05e077d8946ab65cb25aef674f
+      spriteID: 248d14f62538c674cb78e6c9f4ecac60
       vertices: []
       indices: 
       edges: []
@@ -686,18 +686,18 @@ TextureImporter:
       name: Rob_Idle_28
       rect:
         serializedVersion: 2
-        x: 1679
+        x: 1600
         y: 0
-        width: 248
-        height: 414
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 400
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca535b236b457a8469da2ac5e9403a09
+      spriteID: c327b9b74e6a74948b72e640eee5be72
       vertices: []
       indices: 
       edges: []
@@ -706,18 +706,18 @@ TextureImporter:
       name: Rob_Idle_29
       rect:
         serializedVersion: 2
-        x: 2076
+        x: 2000
         y: 0
-        width: 251
+        width: 400
         height: 416
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35d5b625d03ab064691529bdcb650afd
+      spriteID: 683f0df1ce51aa74ca6dff99f7702bb4
       vertices: []
       indices: 
       edges: []

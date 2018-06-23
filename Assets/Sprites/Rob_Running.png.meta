@@ -1,12 +1,42 @@
 fileFormatVersion: 2
 guid: 3a0d5488867e617428d7789d1030772d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Rob_Running_0
+    21300002: Rob_Running_1
+    21300004: Rob_Running_2
+    21300006: Rob_Running_3
+    21300008: Rob_Running_4
+    21300010: Rob_Running_5
+    21300012: Rob_Running_6
+    21300014: Rob_Running_7
+    21300016: Rob_Running_8
+    21300018: Rob_Running_9
+    21300020: Rob_Running_10
+    21300022: Rob_Running_11
+    21300024: Rob_Running_12
+    21300026: Rob_Running_13
+    21300028: Rob_Running_14
+    21300030: Rob_Running_15
+    21300032: Rob_Running_16
+    21300034: Rob_Running_17
+    21300036: Rob_Running_18
+    21300038: Rob_Running_19
+    21300040: Rob_Running_20
+    21300042: Rob_Running_21
+    21300044: Rob_Running_22
+    21300046: Rob_Running_23
+    21300048: Rob_Running_24
+    21300050: Rob_Running_25
+    21300052: Rob_Running_26
+    21300054: Rob_Running_27
+    21300056: Rob_Running_28
+    21300058: Rob_Running_29
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -29,27 +59,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -67,13 +97,635 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rob_Running_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1726
+        width: 353
+        height: 414
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0f5eb99d8eb1542af8e5c85c897289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_1
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1728
+        width: 351
+        height: 419
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4942835f105aa6478da208f1c29dec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_2
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1723
+        width: 353
+        height: 422
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8d017189cfdb742ac43565388c6a1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_3
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1723
+        width: 353
+        height: 425
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8232c9c0bcee4546b8d9b66cc7d3a2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_4
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1723
+        width: 353
+        height: 426
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500c37fcf5a77d488526ea81e833340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_5
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1723
+        width: 354
+        height: 424
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb93e404fc63174db9c349a06632e73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1293
+        width: 353
+        height: 422
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c7ceb03f1594840a040488c9cd0d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1294
+        width: 353
+        height: 418
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049445af1d3d6ae47a67a646aef68b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_8
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1294
+        width: 354
+        height: 417
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602345edf67165848ac3286cf7a7572c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_9
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1294
+        width: 353
+        height: 417
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7321c1942fe1bc744a8288748f5bb8cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_10
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1292
+        width: 353
+        height: 419
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72d6f2d3d769b24e8a42642cc2a48ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_11
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1292
+        width: 354
+        height: 418
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1562f732f49772941838a1947ba606d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 861
+        width: 353
+        height: 418
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4148ccb657744d4d8841798ab9df09d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 862
+        width: 353
+        height: 417
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12945b8824fe0b4fa4f4c90cc8afb4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 863
+        width: 353
+        height: 415
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ac0d446f1e0641b307128933d8ddc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_15
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 865
+        width: 353
+        height: 413
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10cdc89f5668a4681db611101455e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_16
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 863
+        width: 351
+        height: 416
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f9517d48b1313449837f2e40db28a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_17
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 862
+        width: 354
+        height: 420
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59593b6096a039d4bbeadb4091fe6958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 431
+        width: 353
+        height: 422
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de754b46737f5440a0042383e6655e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_19
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 431
+        width: 353
+        height: 424
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2780f657b432a6e4cb4175876e13393c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_20
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 431
+        width: 354
+        height: 423
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10d51a585c6fc645a8354c1980cb900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 431
+        width: 355
+        height: 422
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469e0331f51384244b2cbc233c491603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_22
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 431
+        width: 353
+        height: 419
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9528a26b2e3ca7b4f81758d3a459673a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_23
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 432
+        width: 354
+        height: 417
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022601b5cf54fed478d54e9125416f79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 353
+        height: 416
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ad0f2f178051243a0f4f5d5f7ca67e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1
+        width: 353
+        height: 419
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2632acec790e4ea4890c6bab8711a310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_26
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1
+        width: 354
+        height: 420
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b85914fd6735d48849d28b5deb96ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_27
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1
+        width: 353
+        height: 419
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca27fc3f59689af47b3ba3d2d2b36053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_28
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1
+        width: 353
+        height: 417
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a81099c3c9e8474d8634a4c9043f115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob_Running_29
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2
+        width: 353
+        height: 416
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db66f96617499ca4eb936af8c72a90a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d805646d8ebfcf948bc2169eb3825ae6
     vertices: []
     indices: 
     edges: []
