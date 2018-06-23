@@ -51,4 +51,18 @@ public class PlayerInput : MonoBehaviour {
         return Input.GetButton ("Sprint") || Input.GetAxis ("Sprint") != 0;
     }
 
+    public bool IsPausePressedDown () {
+        return Input.GetKeyDown (KeyCode.Escape);
+    }
+
+    public void BlockPlayerInput (bool value) {
+        //if (value) {
+        //    print ("Input do player bloqueado");
+        //} else {
+        //    print ("Input do player desbloqueado");
+        //}
+
+        blockPlayerInput = value;
+    }
+
 }

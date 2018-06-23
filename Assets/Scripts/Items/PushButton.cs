@@ -53,6 +53,7 @@ public class PushButton : MonoBehaviour {
                 Activate(true);
                 Debug.Log("activated target");
 
+
             }
         }
         else
@@ -64,6 +65,11 @@ public class PushButton : MonoBehaviour {
             }
         }
 		
+	}
+
+	private IEnumerator MoveButton()
+	{
+		return null;
 	}
 
 

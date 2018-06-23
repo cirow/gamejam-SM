@@ -13,7 +13,7 @@ public class SafeZone : MonoBehaviour {
     private void OnTriggerEnter2D (Collider2D collision) {
         DisabledPlayer disabledPlayer = collision.GetComponent<DisabledPlayer> ();
 
-        print (collision.tag + " | é null? " + (disabledPlayer == null));
+        //print (collision.tag + " | é null? " + (disabledPlayer == null));
 
         if (disabledPlayer != null) {
             disabledPlayer.Destroy ();
