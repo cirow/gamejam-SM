@@ -108,8 +108,10 @@ public class Player : MonoBehaviour {
         
         UpdateFacingDirection ();
 
-        CheckItemRadius ();
-        GrabItem ();
+		CheckInteractableRadius();
+		ToggleLever();
+        //CheckItemRadius ();
+        //GrabItem ();
         UpdatePlayerUI ();
     }
     #endregion
