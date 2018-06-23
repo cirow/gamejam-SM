@@ -179,18 +179,20 @@ public class Player : MonoBehaviour {
     }
 
     private void UpdatePlayerUI () {
-        if (itemInRange) {
-            if (itemScript) {
-                environmentUI.text = "Grab\n" + itemScript.itemName;
+        if (environmentUI != null) {
+            if (itemInRange) {
+                if (itemScript) {
+                    environmentUI.text = "Grab\n" + itemScript.itemName;
+                } else {
+                    environmentUI.text = "Grab\nItem";
+                }
+
+                environmentUI.transform.position = Camera.main.WorldToScreenPoint (itemInRange.transform.position) + interactionDescriptionOffset;
+
+                environmentUI.gameObject.SetActive (true);
             } else {
-                environmentUI.text = "Grab\nItem";
+                environmentUI.gameObject.SetActive (false);
             }
-
-            environmentUI.transform.position = Camera.main.WorldToScreenPoint (itemInRange.transform.position) + interactionDescriptionOffset;
-
-            environmentUI.gameObject.SetActive (true);
-        } else {
-            environmentUI.gameObject.SetActive (false);
         }
     }
     #endregion
