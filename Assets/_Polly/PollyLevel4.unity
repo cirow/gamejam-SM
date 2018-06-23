@@ -2156,6 +2156,11 @@ Prefab:
       propertyPath: m_Name
       value: SpawmChange
       objectReference: {fileID: 0}
+    - target: {fileID: 23709842482255556, guid: c01b15f53114d694ba7dc9b143d9bdaa,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c01b15f53114d694ba7dc9b143d9bdaa, type: 2}
   m_IsPrefabParent: 0
@@ -3939,11 +3944,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4148385728252276, guid: f010348f89077ce40905590aee8ba281, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -25.92
+      value: -21.1
       objectReference: {fileID: 0}
     - target: {fileID: 4148385728252276, guid: f010348f89077ce40905590aee8ba281, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 13.5
+      value: 15.3
       objectReference: {fileID: 0}
     - target: {fileID: 4148385728252276, guid: f010348f89077ce40905590aee8ba281, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3999,11 +4004,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114508428695826730, guid: d0560be42f538254c8c5aa30b17785fa,
-        type: 2}
-      propertyPath: targets.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4342929710908968, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
       propertyPath: m_LocalPosition.x
       value: -3.87
@@ -4036,19 +4036,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 4342929710908968, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.7267647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4342929710908968, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.1123737
-      objectReference: {fileID: 0}
-    - target: {fileID: 114508428695826730, guid: d0560be42f538254c8c5aa30b17785fa,
-        type: 2}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 1470577710}
     - target: {fileID: 114508428695826730, guid: d0560be42f538254c8c5aa30b17785fa,
         type: 2}
       propertyPath: targets.Array.data[0]
