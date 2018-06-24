@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent (typeof (Controller2D))]
 public class DisabledPlayer : MonoBehaviour {
-
-    // Sebastian Lague's
+    
     private Controller2D controller;
 
     private float gravity = -20;
@@ -12,7 +12,6 @@ public class DisabledPlayer : MonoBehaviour {
     private Vector3 velocity;
 
     private void Awake () {
-        //collider.enabled = false;
         controller = GetComponent<Controller2D> ();
     }
 

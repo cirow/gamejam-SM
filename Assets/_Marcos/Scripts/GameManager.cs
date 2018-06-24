@@ -49,19 +49,24 @@ public class GameManager : MonoBehaviour
             }
 
             if (blockPlayerCoroutine == null && playerInput.IsResetPressedDown ()) {
-                DisableCurrentPlayer ();
+                DisableCurrentPlayer (true);
             }
         }
 	}
 
-    public void DisableCurrentPlayer () {
+    public void DisableCurrentPlayer (bool createCadaver) {
         lives.SubtractLife ();
         if (lives.currentLivesCount <= 0) {
             GameOver ();
         } else {
             Vector3 playerPosition = player.position;
             player.ResetPlayerPosition ();
-            CreateCadaver (playerPosition);
+
+            if (createCadaver) {
+                CreateCadaver (playerPosition);
+            } else {
+                // todo animação morte? ex: explosão
+            }
 
             blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
         }

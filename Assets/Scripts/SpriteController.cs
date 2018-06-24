@@ -10,14 +10,13 @@ public class SpriteController : MonoBehaviour {
 
     private bool wasGrounded = true;
     private bool wasfalling = false;
-	// Use this for initialization
+
 	void Start () {
         player = FindObjectOfType<Player>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
         spriteRenderer.flipX = !player.facingRight;
         anim.SetBool("moving", player.moving);
@@ -42,7 +41,7 @@ public class SpriteController : MonoBehaviour {
                 {
                     if (player.Velocity.y > 0)
                     {
-                        Debug.Log("pulou");
+                        //Debug.Log("pulou");
                         anim.SetTrigger("up");
                     }
                 }
