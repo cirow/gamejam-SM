@@ -9,48 +9,49 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1770901909546030}
+  m_RootGameObject: {fileID: 1952240379877216}
   m_IsPrefabParent: 1
---- !u!1 &1770901909546030
+--- !u!1 &1952240379877216
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4607677011861350}
-  - component: {fileID: 212987694715837696}
-  - component: {fileID: 95513091214657480}
+  - component: {fileID: 4543363068100278}
+  - component: {fileID: 212703996222784050}
+  - component: {fileID: 95921944665835580}
+  - component: {fileID: 114933055243392300}
   m_Layer: 0
-  m_Name: SpawnPoint
+  m_Name: xplosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4607677011861350
+--- !u!4 &4543363068100278
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1770901909546030}
+  m_GameObject: {fileID: 1952240379877216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.9, y: -4.7, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0, y: -2.26, z: 0}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95513091214657480
+--- !u!95 &95921944665835580
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1770901909546030}
+  m_GameObject: {fileID: 1952240379877216}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 92e7c7f298a63c54380322910dc19623, type: 2}
+  m_Controller: {fileID: 9100000, guid: 41d8f8ead2a89fe4a82e29b7613fb2d2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -59,12 +60,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &212987694715837696
+--- !u!114 &114933055243392300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952240379877216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f65aa1ba2b65aa4aa4d17c6003e9582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &212703996222784050
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1770901909546030}
+  m_GameObject: {fileID: 1952240379877216}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
