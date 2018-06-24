@@ -29,15 +29,15 @@ public class PushButton : MonoBehaviour {
 
         foreach(Interactable target in targets)
         {
-     
-            if (target.Interact())
-            {
-                result = true;
-            }
-            else
-            {
-                Debug.Log("error activating target");
-                result = false;
+            if (target != null) {
+                if (target.Interact ()) {
+                    result = true;
+                } else {
+                    Debug.Log ("error activating target");
+                    result = false;
+                }
+            } else {
+                Debug.Log ("(" + gameObject.name + "): target de PushButton está nulo!");
             }
         }
 

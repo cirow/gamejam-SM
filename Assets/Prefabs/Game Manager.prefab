@@ -84,7 +84,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1392314993399600
 GameObject:
   m_ObjectHideFlags: 1
@@ -311,7 +311,7 @@ MonoBehaviour:
   levelManager: {fileID: 114414500180213516, guid: 92f0d198129221642870f571bef82477,
     type: 2}
   playerHud: {fileID: 1226774023677948}
-  disabledPlayerPrefab: {fileID: 1358768853124588, guid: 667ce02ef65a0a34fa3be36f9d97b930,
+  disabledPlayerPrefab: {fileID: 114350056285362334, guid: 667ce02ef65a0a34fa3be36f9d97b930,
     type: 2}
   explosionPrefab: {fileID: 1952240379877216, guid: d4976030ce647a842aabbc60acd9dc85,
     type: 2}

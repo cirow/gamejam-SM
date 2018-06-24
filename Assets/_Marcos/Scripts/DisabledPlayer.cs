@@ -41,4 +41,8 @@ public class DisabledPlayer : MonoBehaviour {
         }
     }
 
+    public void FlipSprite (bool flip) {
+        GetComponentInChildren<SpriteRenderer> ().flipX = flip;
+    }
+
 }

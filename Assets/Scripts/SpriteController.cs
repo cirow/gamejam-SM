@@ -43,6 +43,10 @@ public class SpriteController : MonoBehaviour {
                     {
                         //Debug.Log("pulou");
                         anim.SetTrigger("up");
+						if(AudioManager.instance !=null)
+						{
+							AudioManager.instance.PlayJump();
+						}
                     }
                 }
             }

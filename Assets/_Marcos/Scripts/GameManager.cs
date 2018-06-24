@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerHud;
 
     [Space (10)]
-    public GameObject disabledPlayerPrefab;
+    public DisabledPlayer disabledPlayerPrefab;
     public GameObject explosionPrefab;
 
     public IngameState currentGameState { get; private set; }
@@ -58,11 +58,13 @@ public class GameManager : MonoBehaviour
     public void DisableCurrentPlayer (bool createCadaver) {
         lives.SubtractLife ();
 
+        bool flip = !player.facingRight;
+
         Vector3 playerPosition = player.position;
         player.ResetPlayerPosition ();
 
         if (createCadaver) {
-            CreateCadaver (playerPosition);
+            CreateCadaver (playerPosition, flip);
         } else {
             CreateExplosion (playerPosition);
         }
@@ -74,8 +76,9 @@ public class GameManager : MonoBehaviour
         blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
     }
 
-    private void CreateCadaver (Vector3 position) {
-        Instantiate (disabledPlayerPrefab, position, Quaternion.identity);
+    private void CreateCadaver (Vector3 position, bool flip) {
+        DisabledPlayer disabledPlayer = Instantiate (disabledPlayerPrefab, position, Quaternion.identity);
+        disabledPlayer.FlipSprite (flip);
     }
 
     public void CreateExplosion (Vector3 position) {
