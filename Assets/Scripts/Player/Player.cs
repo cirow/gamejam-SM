@@ -31,12 +31,18 @@ public class Player : MonoBehaviour {
 
     public Vector2 position {
         get {
-            return transform.position;
+            if (invincible) {
+                return deathPosition;
+            } else {
+                return transform.position;
+            }
         }
     }
     public bool facingRight { get; private set; }
     public bool moving { get; private set; }
     public bool sprinting { get; private set; }
+
+    public bool invincible { get; private set; }
 
     public bool grounded
     {
@@ -57,6 +63,9 @@ public class Player : MonoBehaviour {
     private Transform spawnPoint;
 
     private Rigidbody2D rigid;
+
+    private BoxCollider2D boxCollider;
+    private SpriteRenderer spriteRenderer;
 
     private float currentSpeed;
     private bool hasJumped;
@@ -92,12 +101,17 @@ public class Player : MonoBehaviour {
     private Lever leverScript;
     // >>>>>>>>>>>>>>>>>>>
 
+    private Vector3 deathPosition;
+
     #region MonoBehaviour
     void Awake () {
         gameManager = FindObjectOfType<GameManager> ();
         cameraBehaviour = FindObjectOfType<CameraBehaviour> ();
         playerInput = FindObjectOfType<PlayerInput> ();
-        
+
+        boxCollider = GetComponent<BoxCollider2D> ();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer> ();
+
         if (playerInput == null) {
             playerInput = gameObject.AddComponent<PlayerInput> ();
         }
@@ -182,13 +196,38 @@ public class Player : MonoBehaviour {
     }
 
     public void ResetPlayerPosition () {
+        StartCoroutine (WaitToReset ());
+    }
+
+    private IEnumerator WaitToReset () {
+        invincible = true;
+        HidePlayer ();
+        playerInput.BlockPlayerInput (true);
+        deathPosition = transform.position;
+
+        yield return new WaitForSeconds (1.2f);
+
         facingRight = true;
         velocity = Vector3.zero;
         transform.position = spawnPoint.position;
+
+        invincible = false;
+        ShowPlayer ();
+        playerInput.BlockPlayerInput (false);
     }
 
     public void TakeHit () {
         gameManager.DisableCurrentPlayer (false);
+    }
+
+    public void ShowPlayer () {
+        boxCollider.enabled = true;
+        spriteRenderer.enabled = true;
+    }
+
+    public void HidePlayer () {
+        boxCollider.enabled = false;
+        spriteRenderer.enabled = false;
     }
 
     #region Item Interaction

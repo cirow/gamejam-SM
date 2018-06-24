@@ -56,12 +56,19 @@ public class GameManager : MonoBehaviour
 	}
 
     public void DisableCurrentPlayer (bool createCadaver) {
+        if (player.invincible) return;
+
         lives.SubtractLife ();
 
         bool flip = !player.facingRight;
 
         Vector3 playerPosition = player.position;
-        player.ResetPlayerPosition ();
+
+        if (lives.currentLivesCount > 0) {
+            player.ResetPlayerPosition ();
+        } else {
+            player.HidePlayer ();
+        }
 
         if (createCadaver) {
             CreateCadaver (playerPosition, flip);
@@ -71,9 +78,9 @@ public class GameManager : MonoBehaviour
 
         if (lives.currentLivesCount <= 0) {
             GameOver ();
+        } else {
+            //blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
         }
-
-        blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
     }
 
     private void CreateCadaver (Vector3 position, bool flip) {
