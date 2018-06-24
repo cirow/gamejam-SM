@@ -16,6 +16,7 @@ public class TurretProjectile : MonoBehaviour {
 
     private void Awake () {
         limitTime = Time.time + projectileLifetime;
+        transform.position = new Vector3(transform.position.x, transform.position.y, (float) -0.1);
     }
 
     void Update () {

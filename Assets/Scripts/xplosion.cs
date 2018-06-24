@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class xplosion : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+
+    private void Awake()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, (float)-.3);
+    }
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
