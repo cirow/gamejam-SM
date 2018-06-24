@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour
     private AudioSource sourceSFX;
     [SerializeField]
     private AudioClip disableSFX;
+	[SerializeField]
+	private AudioClip jumpSFX;
 
 
 	// Use this for initialization
@@ -45,6 +47,12 @@ public class AudioManager : MonoBehaviour
         backgroundSource.PlayOneShot(disableSFX);
         sourceSFX.PlayOneShot(disableSFX);
     }
+
+	public void PlayJump()
+	{
+		backgroundSource.PlayOneShot(jumpSFX);
+		sourceSFX.PlayOneShot(jumpSFX);
+	}
 
 	public void PlayBackgroundAudio(bool play)
 	{
