@@ -48,6 +48,7 @@ public class Player : MonoBehaviour {
 
     private int itemLayerMask;
 
+    private GameManager gameManager;
     private CameraBehaviour cameraBehaviour;
     private PlayerInput playerInput;
 
@@ -93,11 +94,10 @@ public class Player : MonoBehaviour {
 
     #region MonoBehaviour
     void Awake () {
+        gameManager = FindObjectOfType<GameManager> ();
         cameraBehaviour = FindObjectOfType<CameraBehaviour> ();
         playerInput = FindObjectOfType<PlayerInput> ();
-
-
-
+        
         if (playerInput == null) {
             playerInput = gameObject.AddComponent<PlayerInput> ();
         }
@@ -185,6 +185,10 @@ public class Player : MonoBehaviour {
         facingRight = true;
         velocity = Vector3.zero;
         transform.position = spawnPoint.position;
+    }
+
+    public void TakeHit () {
+        gameManager.DisableCurrentPlayer (false);
     }
 
     #region Item Interaction

@@ -9,7 +9,7 @@ public class CameraBehaviour : MonoBehaviour {
     public float horizontalSpeed = 4;
 
     [Space (10)]
-    public Vector2 cameraOffset = new Vector2 (2, 1.5f);
+    public Vector2 cameraOffset = new Vector2 (2, 1);
 
     private Player player;
     private Vector2 currentOffset;
