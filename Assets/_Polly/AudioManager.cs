@@ -7,6 +7,13 @@ public class AudioManager : MonoBehaviour
 	public static AudioManager instance = null;
 	[HideInInspector]
 	public AudioSource backgroundSource;
+
+    [SerializeField]
+    private AudioSource sourceSFX;
+    [SerializeField]
+    private AudioClip disableSFX;
+
+
 	// Use this for initialization
 	private void Awake()
 	{
@@ -32,6 +39,12 @@ public class AudioManager : MonoBehaviour
 	{
 		
 	}
+
+    public void PlayDisable()
+    {
+        backgroundSource.PlayOneShot(disableSFX);
+        sourceSFX.PlayOneShot(disableSFX);
+    }
 
 	public void PlayBackgroundAudio(bool play)
 	{

@@ -13,4 +13,10 @@ public class CorpseSprite : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void OnStartDisable()
+    {
+        Debug.Log("desligando");
+        AudioManager.instance.PlayDisable();
+    }
 }
