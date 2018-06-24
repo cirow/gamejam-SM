@@ -5,6 +5,9 @@ using UnityEngine;
 public class ExitDoor : Interactable
 {
 
+    [SerializeField]
+    private NextLevelPass nextLevel;
+
 	public Keycard[] keycards;
 	public override bool Interact()
 	{
@@ -14,7 +17,8 @@ public class ExitDoor : Interactable
 	// Use this for initialization
 	void Start ()
 	{
-		keycards = GameObject.FindObjectsOfType<Keycard>();
+        LockNextLevel(true);
+        keycards = GameObject.FindObjectsOfType<Keycard>();
 		foreach (var card in keycards)
 		{
 			card.OnKeycardGet += CheckIfUnlocked;
@@ -35,10 +39,19 @@ public class ExitDoor : Interactable
 
 	void UnlockDoor()
 	{
-		gameObject.SetActive(false);
+        GetComponent<Animator>().enabled = true;
+        LockNextLevel(false);
+       
+		//gameObject.SetActive(false);
 	}
-	// Update is called once per frame
-	void Update ()
+
+    void LockNextLevel(bool lockIt)
+    {
+        nextLevel.GetComponent<Collider2D>().enabled = !lockIt;
+
+    }
+    // Update is called once per frame
+    void Update ()
 	{
 		
 	}
