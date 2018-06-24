@@ -9226,11 +9226,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 385657317}
     m_Modifications:
-    - target: {fileID: 114508428695826730, guid: d0560be42f538254c8c5aa30b17785fa,
-        type: 2}
-      propertyPath: targets.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4342929710908968, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
       propertyPath: m_LocalPosition.x
       value: 36.78
@@ -9263,10 +9258,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 1304331682257486, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
-      propertyPath: m_Name
-      value: PushButton3
-      objectReference: {fileID: 0}
     - target: {fileID: 114508428695826730, guid: d0560be42f538254c8c5aa30b17785fa,
         type: 2}
       propertyPath: targets.Array.data[0]
@@ -9287,6 +9278,10 @@ Prefab:
       propertyPath: targets.Array.data[3]
       value: 
       objectReference: {fileID: 856966642}
+    - target: {fileID: 1304331682257486, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
+      propertyPath: m_Name
+      value: PushButton3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0560be42f538254c8c5aa30b17785fa, type: 2}
   m_IsPrefabParent: 0

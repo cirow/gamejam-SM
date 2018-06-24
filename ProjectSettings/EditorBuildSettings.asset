@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Polly/Credits.unity
-    guid: 20e57ad47bc4e4f4b83a157154456ba0
-  - enabled: 1
     path: Assets/_Polly/MainMenu.unity
     guid: fb72bdf1c6d4cbf4b9ecdac0567aa8d8
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Polly/Level5.unity
     guid: d731a6a6c83258342abcf542f25eb7f8
+  - enabled: 1
+    path: Assets/_Polly/Credits.unity
+    guid: 20e57ad47bc4e4f4b83a157154456ba0
   m_configObjects: {}
