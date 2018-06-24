@@ -177,7 +177,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -275,3 +275,4 @@ MonoBehaviour:
   backgroundSource: {fileID: 0}
   sourceSFX: {fileID: 82668683811540922}
   disableSFX: {fileID: 8300000, guid: fd6a8c407212c3748b884c0d698ebfea, type: 3}
+  jumpSFX: {fileID: 8300000, guid: 264daa2980df9b641a1a5a4393ca3698, type: 3}
