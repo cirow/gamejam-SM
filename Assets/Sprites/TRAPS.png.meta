@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: f8c25afbb2ea53149980c82937fa0ef0
+timeCreated: 1529806690
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TRAPS_0
+    21300002: TRAPS_1
+    21300004: TRAPS_2
+    21300006: TRAPS_3
+    21300008: TRAPS_4
+    21300010: TRAPS_5
+    21300012: TRAPS_6
+    21300014: TRAPS_7
+    21300016: TRAPS_8
+    21300018: TRAPS_9
+    21300020: TRAPS_10
+    21300022: TRAPS_11
+    21300024: TRAPS_12
+    21300026: TRAPS_13
+    21300028: TRAPS_14
+    21300030: TRAPS_15
+    21300032: TRAPS_16
+    21300034: TRAPS_17
+    21300036: TRAPS_18
+    21300038: TRAPS_19
+    21300040: TRAPS_20
+    21300042: TRAPS_21
+    21300044: TRAPS_22
+    21300046: TRAPS_23
+    21300048: TRAPS_24
+    21300050: TRAPS_25
+    21300052: TRAPS_26
+    21300054: TRAPS_27
+    21300056: TRAPS_28
+    21300058: TRAPS_29
+    21300060: TRAPS_30
+    21300062: TRAPS_31
+    21300064: TRAPS_32
+    21300066: TRAPS_33
+    21300068: TRAPS_34
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TRAPS_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3093
+        width: 875
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_1
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 3093
+        width: 869
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_2
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 3094
+        width: 869
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_3
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 3097
+        width: 871
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2890
+        width: 167
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2894
+        width: 172
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_6
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2906
+        width: 161
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_7
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2531
+        width: 496
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_8
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 2062
+        width: 990
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_9
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 2054
+        width: 992
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2187
+        width: 85
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1224
+        width: 97
+        height: 1643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1062
+        width: 852
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_13
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2015
+        width: 498
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_14
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 2156
+        width: 74
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1226
+        width: 68
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_16
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1663
+        width: 300
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_17
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1364
+        width: 734
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_18
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 874
+        width: 349
+        height: 1168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_19
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 875
+        width: 351
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_20
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 875
+        width: 352
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_21
+      rect:
+        serializedVersion: 2
+        x: 3913
+        y: 1748
+        width: 74
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_22
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1320
+        width: 300
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_23
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1013
+        width: 1166
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_24
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 1312
+        width: 81
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_25
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1062
+        width: 224
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_26
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 905
+        width: 75
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 1448
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 515
+        width: 1447
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_29
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 21
+        width: 993
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_30
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 106
+        width: 735
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_31
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 11
+        width: 54
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_32
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 8
+        width: 57
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_33
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 11
+        width: 69
+        height: 837
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TRAPS_34
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 7
+        width: 69
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

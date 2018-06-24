@@ -294,7 +294,7 @@ MonoBehaviour:
   levelManager: {fileID: 114414500180213516, guid: 92f0d198129221642870f571bef82477,
     type: 2}
   playerHud: {fileID: 1226774023677948}
-  disabledPlayerPrefab: {fileID: 1538422601123808, guid: e1e3a068158b34b41b7a3248f99d4440,
+  disabledPlayerPrefab: {fileID: 1358768853124588, guid: 667ce02ef65a0a34fa3be36f9d97b930,
     type: 2}
 --- !u!114 &114114213000803596
 MonoBehaviour:
