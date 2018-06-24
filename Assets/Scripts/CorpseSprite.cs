@@ -17,6 +17,8 @@ public class CorpseSprite : MonoBehaviour {
     public void OnStartDisable()
     {
         Debug.Log("desligando");
-        AudioManager.instance.PlayDisable();
+        if (AudioManager.instance != null) {
+            AudioManager.instance.PlayDisable ();
+        }
     }
 }

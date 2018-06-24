@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
 
     [Space (10)]
     public GameObject disabledPlayerPrefab;
+    public GameObject explosionPrefab;
 
     public IngameState currentGameState { get; private set; }
 
@@ -66,6 +67,7 @@ public class GameManager : MonoBehaviour
                 CreateCadaver (playerPosition);
             } else {
                 // todo animação morte? ex: explosão
+                CreateExplosion (playerPosition);
             }
 
             blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
@@ -74,6 +76,10 @@ public class GameManager : MonoBehaviour
 
     private void CreateCadaver (Vector3 position) {
         Instantiate (disabledPlayerPrefab, position, Quaternion.identity);
+    }
+
+    public void CreateExplosion (Vector3 position) {
+        Instantiate (explosionPrefab, position + (Vector3.down * 0.25f), Quaternion.identity);
     }
 
     private IEnumerator BlockPlayerInputTemporarily () {

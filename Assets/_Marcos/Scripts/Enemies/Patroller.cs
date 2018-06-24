@@ -8,6 +8,11 @@ public class Patroller : Enemy {
     public Transform patrolLeftLimit;
     public Transform patrolRightLimit;
 
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
+    [SerializeField]
+    private Animator anim;
+
     [Space (10)]
     public int speed = 10;
     public float waitTimeWhenDirectionChange;
@@ -28,6 +33,14 @@ public class Patroller : Enemy {
     private float patrolLeftLimitX, patrolRightLimitX;
 
     private bool goingRight;
+
+    public bool GoingRight
+    {
+        get
+        {
+            return goingRight;
+        }
+    }
 
     private bool patrolPaused;
 
@@ -97,12 +110,17 @@ public class Patroller : Enemy {
         } else {
             horizontalMovement = goingRight ? speed : -speed;
         }
+
+        anim.speed = Mathf.Abs(velocity.x / speed);
     }
 
     private void ChangeDirection () {
         goingRight = !goingRight;
         StartCoroutine (PausePatrol ());
         print ("changed direction!");
+        spriteRenderer.flipX = goingRight;
+
+
     }
 
     private IEnumerator PausePatrol () {

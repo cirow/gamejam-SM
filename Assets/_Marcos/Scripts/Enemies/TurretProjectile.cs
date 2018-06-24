@@ -36,6 +36,11 @@ public class TurretProjectile : MonoBehaviour {
             Player player = hit.collider.GetComponent<Player> ();
             if (player != null) {
                 player.TakeHit ();
+            } else {
+                DisabledPlayer disabledPlayer = hit.collider.GetComponent<DisabledPlayer> ();
+                if (disabledPlayer != null) {
+                    disabledPlayer.Destroy ();
+                }
             }
             Destroy (gameObject);
         }

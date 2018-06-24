@@ -25,6 +25,10 @@ public class DisabledPlayer : MonoBehaviour {
     }
 
     public void Destroy () {
+        GameManager manager = FindObjectOfType<GameManager> ();
+        if (manager != null) {
+            manager.CreateExplosion (transform.position);
+        }
         Destroy (gameObject);
     }
 
