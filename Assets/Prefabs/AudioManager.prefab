@@ -276,3 +276,4 @@ MonoBehaviour:
   sourceSFX: {fileID: 82668683811540922}
   disableSFX: {fileID: 8300000, guid: fd6a8c407212c3748b884c0d698ebfea, type: 3}
   jumpSFX: {fileID: 8300000, guid: 264daa2980df9b641a1a5a4393ca3698, type: 3}
+  toastSFX: {fileID: 8300000, guid: 8975d044c570b934cb551cb05588b2a1, type: 3}

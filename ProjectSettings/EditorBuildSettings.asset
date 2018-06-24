@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Polly/Credits.unity
     guid: 20e57ad47bc4e4f4b83a157154456ba0
+  - enabled: 1
+    path: Assets/_Polly/WinScene.unity
+    guid: 1df00f06b23738744aff09d18c80e02a
   m_configObjects: {}
