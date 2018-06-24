@@ -57,21 +57,21 @@ public class GameManager : MonoBehaviour
 
     public void DisableCurrentPlayer (bool createCadaver) {
         lives.SubtractLife ();
+
+        Vector3 playerPosition = player.position;
+        player.ResetPlayerPosition ();
+
+        if (createCadaver) {
+            CreateCadaver (playerPosition);
+        } else {
+            CreateExplosion (playerPosition);
+        }
+
         if (lives.currentLivesCount <= 0) {
             GameOver ();
-        } else {
-            Vector3 playerPosition = player.position;
-            player.ResetPlayerPosition ();
-
-            if (createCadaver) {
-                CreateCadaver (playerPosition);
-            } else {
-                // todo animação morte? ex: explosão
-                CreateExplosion (playerPosition);
-            }
-
-            blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
         }
+
+        blockPlayerCoroutine = StartCoroutine (BlockPlayerInputTemporarily ());
     }
 
     private void CreateCadaver (Vector3 position) {
