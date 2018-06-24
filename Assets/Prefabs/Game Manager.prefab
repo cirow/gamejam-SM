@@ -313,6 +313,8 @@ MonoBehaviour:
   playerHud: {fileID: 1226774023677948}
   disabledPlayerPrefab: {fileID: 1358768853124588, guid: 667ce02ef65a0a34fa3be36f9d97b930,
     type: 2}
+  explosionPrefab: {fileID: 1952240379877216, guid: d4976030ce647a842aabbc60acd9dc85,
+    type: 2}
 --- !u!114 &114114213000803596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -633,7 +635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   livesText: {fileID: 114651349831983208}
-  totalLives: 3
+  totalLives: 5
 --- !u!114 &114651349831983208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -808,7 +810,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PAUSED
+  m_Text: Paused
 --- !u!114 &114928771000130918
 MonoBehaviour:
   m_ObjectHideFlags: 1
