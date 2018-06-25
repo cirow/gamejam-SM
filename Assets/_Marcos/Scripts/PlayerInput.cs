@@ -7,7 +7,7 @@ public class PlayerInput : MonoBehaviour {
     public bool blockPlayerInput;
 
     public bool IsResetPressedDown () {
-        return Input.GetKeyDown (KeyCode.R);
+        return Input.GetButtonDown ("Power");
     }
 
     public bool IsJumpPressedDown () {
