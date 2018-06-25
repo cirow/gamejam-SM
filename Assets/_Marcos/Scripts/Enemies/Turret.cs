@@ -35,4 +35,9 @@ public class Turret : Enemy {
         newProjectile.speed = projectileSpeed;
     }
 
+    private void OnDrawGizmosSelected () {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine (muzzle.position, muzzle.position + muzzle.right * 100);
+    }
+
 }
