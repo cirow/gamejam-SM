@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 8
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,7 +39,6 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,10 +54,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -184,6 +184,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
   m_IsPrefabParent: 0
@@ -250,6 +254,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -295,6 +303,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -346,6 +358,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -523,6 +539,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -573,6 +593,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -625,6 +649,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -671,6 +699,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -716,6 +748,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -826,6 +862,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -877,6 +917,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -923,6 +967,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -968,6 +1016,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -1020,6 +1072,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -1070,6 +1126,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -1132,6 +1192,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -1188,6 +1252,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -1229,6 +1297,10 @@ Prefab:
     - target: {fileID: 4875562349255474, guid: 9210e6b0cd3995347802f9bf203cb08c, type: 2}
       propertyPath: m_RootOrder
       value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1040542617287070, guid: 9210e6b0cd3995347802f9bf203cb08c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9210e6b0cd3995347802f9bf203cb08c, type: 2}
@@ -1287,6 +1359,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -1333,6 +1409,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -1351,7 +1431,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &303905157
 SpriteRenderer:
@@ -1367,7 +1447,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1410,8 +1489,8 @@ Transform:
   m_LocalPosition: {x: 68.6, y: -29.4, z: 12.03}
   m_LocalScale: {x: 11.49391, y: 9.28386, z: 1}
   m_Children: []
-  m_Father: {fileID: 737523290}
-  m_RootOrder: 4
+  m_Father: {fileID: 1984551827}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &304155062 stripped
 Transform:
@@ -1460,6 +1539,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -1522,6 +1605,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -1544,7 +1631,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &378808376
 SpriteRenderer:
@@ -1559,7 +1646,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1647,6 +1733,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -1663,7 +1753,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &387287778
 Transform:
@@ -1716,7 +1806,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &389032653
 SpriteRenderer:
@@ -1732,7 +1822,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1775,8 +1864,8 @@ Transform:
   m_LocalPosition: {x: 19.1, y: -58.7, z: 12.03}
   m_LocalScale: {x: 11.49391, y: 9.28386, z: 1}
   m_Children: []
-  m_Father: {fileID: 737523290}
-  m_RootOrder: 6
+  m_Father: {fileID: 1984551827}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &390159922 stripped
 Transform:
@@ -1912,6 +2001,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -1958,6 +2051,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -2003,6 +2100,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -2060,6 +2161,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -2110,6 +2215,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -2162,6 +2271,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -2184,7 +2297,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &462173000
 SpriteRenderer:
@@ -2199,7 +2312,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2320,7 +2432,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &505927463
 SpriteRenderer:
@@ -2335,7 +2447,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2385,7 +2496,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 702948315}
     m_Modifications:
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalPosition.x
@@ -2401,15 +2512,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.w
@@ -2417,7 +2528,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2431,6 +2542,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &512223663 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322,
+    type: 2}
+  m_PrefabInternal: {fileID: 512223662}
 --- !u!4 &522655707 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4397734117938180, guid: 689502650bd460b4e9a16e930070e9ab,
@@ -2603,7 +2719,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &554340660
 Prefab:
@@ -2643,6 +2759,10 @@ Prefab:
     - target: {fileID: 4555671054715980, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -2695,6 +2815,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -2740,6 +2864,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -2793,6 +2921,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -2838,6 +2970,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -2885,6 +3021,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -2930,6 +3070,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -3032,6 +3176,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -3137,6 +3285,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1846483456278466, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
   m_IsPrefabParent: 0
@@ -3198,6 +3350,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -3239,6 +3395,10 @@ Prefab:
     - target: {fileID: 4181895017332310, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
       propertyPath: m_RootOrder
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846483456278466, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
@@ -3356,7 +3516,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295783016650084, guid: 352ee07a7f8978f4784ec33406e798a3, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114630837955685064, guid: 352ee07a7f8978f4784ec33406e798a3,
         type: 2}
@@ -3429,8 +3589,11 @@ Transform:
   - {fileID: 561463407}
   - {fileID: 1283370973}
   - {fileID: 2110432283}
+  - {fileID: 512223663}
+  - {fileID: 1656488236}
+  - {fileID: 937883271}
   m_Father: {fileID: 737523290}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &720107191
 Prefab:
@@ -3475,6 +3638,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -3503,15 +3670,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1071256082}
   - {fileID: 702948315}
   - {fileID: 1984551827}
-  - {fileID: 2033456539}
-  - {fileID: 303905158}
-  - {fileID: 1614989663}
-  - {fileID: 389032654}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &749395358
 Prefab:
@@ -3555,6 +3717,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -3607,6 +3773,10 @@ Prefab:
       propertyPath: m_Name
       value: caixas def (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1040542617287070, guid: 9210e6b0cd3995347802f9bf203cb08c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9210e6b0cd3995347802f9bf203cb08c, type: 2}
   m_IsPrefabParent: 0
@@ -3657,6 +3827,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -3710,6 +3884,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -3760,6 +3938,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -3817,6 +3999,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -3858,6 +4044,10 @@ Prefab:
     - target: {fileID: 4902347451889082, guid: 561dc248c2f431843938e48e5f75c519, type: 2}
       propertyPath: m_RootOrder
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531740328611014, guid: 561dc248c2f431843938e48e5f75c519, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 561dc248c2f431843938e48e5f75c519, type: 2}
@@ -3914,6 +4104,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -3981,6 +4175,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -3997,7 +4195,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &905008265
 Transform:
@@ -4085,6 +4283,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -4136,6 +4338,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -4181,6 +4387,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -4228,6 +4438,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -4262,7 +4476,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 702948315}
     m_Modifications:
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4278,15 +4492,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalRotation.w
@@ -4294,7 +4508,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4312,6 +4526,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe9b0dad49841b44bbedcfddb5806322, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &937883271 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4804668588210800, guid: fe9b0dad49841b44bbedcfddb5806322,
+    type: 2}
+  m_PrefabInternal: {fileID: 937883270}
 --- !u!1001 &940899452
 Prefab:
   m_ObjectHideFlags: 0
@@ -4366,6 +4585,10 @@ Prefab:
     - target: {fileID: 1987384463197350, guid: 41a4b7c4714bd284c8b2fad5b0d4762d, type: 2}
       propertyPath: m_Name
       value: Raio (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987384463197350, guid: 41a4b7c4714bd284c8b2fad5b0d4762d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41a4b7c4714bd284c8b2fad5b0d4762d, type: 2}
@@ -4474,6 +4697,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -4519,6 +4746,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -4566,6 +4797,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -4583,7 +4818,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &1015106594
 SpriteRenderer:
@@ -4598,7 +4833,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4685,6 +4919,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -4789,6 +5027,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -4835,6 +5077,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -4848,7 +5094,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 737523290}
+    m_TransformParent: {fileID: 1984551827}
     m_Modifications:
     - target: {fileID: 4239587470589456, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4880,7 +5126,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4239587470589456, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864500159373620, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651365835926050, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821863243283584, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
@@ -4932,6 +5190,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -5030,6 +5292,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -5075,6 +5341,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -5122,6 +5392,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -5168,6 +5442,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -5213,6 +5491,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -5286,6 +5568,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -5347,6 +5633,10 @@ Prefab:
       propertyPath: m_Name
       value: Box (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1528089570641140, guid: 68bbdaeef728a554db409f97aa0d7464, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68bbdaeef728a554db409f97aa0d7464, type: 2}
   m_IsPrefabParent: 0
@@ -5392,6 +5682,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -5463,6 +5757,10 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 0.5188679
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
@@ -5606,6 +5904,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -5698,6 +6000,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -5744,6 +6050,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -5760,7 +6070,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1266978588
 Transform:
@@ -5831,6 +6141,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -5876,6 +6190,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -5932,6 +6250,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -5994,6 +6316,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -6039,6 +6365,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -6091,6 +6421,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -6136,6 +6470,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -6244,6 +6582,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -6289,7 +6631,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4440934101282118, guid: c4d3d19248457db4087e832e5b2cc76b, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c4d3d19248457db4087e832e5b2cc76b, type: 2}
@@ -6336,6 +6678,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -6393,6 +6739,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -6438,6 +6788,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -6489,6 +6843,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -6546,6 +6904,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -6597,6 +6959,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -6664,6 +7030,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -6714,6 +7084,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1846483456278466, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
   m_IsPrefabParent: 0
@@ -6760,6 +7134,10 @@ Prefab:
     - target: {fileID: 4808389081167318, guid: 507b8ee74ad8f534d8ad289db8d9493a, type: 2}
       propertyPath: m_RootOrder
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901864714678008, guid: 507b8ee74ad8f534d8ad289db8d9493a, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 507b8ee74ad8f534d8ad289db8d9493a, type: 2}
@@ -6817,6 +7195,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -6872,6 +7254,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -6985,6 +7371,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -7043,6 +7433,10 @@ Prefab:
       propertyPath: rotateSpeed
       value: -50
       objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
   m_IsPrefabParent: 0
@@ -7089,6 +7483,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -7107,7 +7505,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &1614989662
 SpriteRenderer:
@@ -7123,7 +7521,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7166,8 +7563,8 @@ Transform:
   m_LocalPosition: {x: -46.800003, y: -35.6, z: 12.03}
   m_LocalScale: {x: 11.49391, y: 9.28386, z: 1}
   m_Children: []
-  m_Father: {fileID: 737523290}
-  m_RootOrder: 5
+  m_Father: {fileID: 1984551827}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1616930321
 Prefab:
@@ -7211,6 +7608,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -7258,6 +7659,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -7300,6 +7705,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 1569746035167370, guid: 2ed77f13793de5c49a793e7a853b9b19, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ed77f13793de5c49a793e7a853b9b19, type: 2}
   m_IsPrefabParent: 0
@@ -7341,6 +7750,10 @@ Prefab:
     - target: {fileID: 4324313061656516, guid: 68bbdaeef728a554db409f97aa0d7464, type: 2}
       propertyPath: m_RootOrder
       value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528089570641140, guid: 68bbdaeef728a554db409f97aa0d7464, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68bbdaeef728a554db409f97aa0d7464, type: 2}
@@ -7393,6 +7806,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -7444,6 +7861,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -7452,7 +7873,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 702948315}
     m_Modifications:
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -7468,15 +7889,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_LocalRotation.w
@@ -7484,7 +7905,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
       propertyPath: m_LocalScale.x
@@ -7493,6 +7914,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f1bbe090ae1068478cd493d9835d65c, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1656488236 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4009715785582256, guid: 2f1bbe090ae1068478cd493d9835d65c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1656488235}
 --- !u!1001 &1658395850
 Prefab:
   m_ObjectHideFlags: 0
@@ -7535,6 +7961,10 @@ Prefab:
     - target: {fileID: 1569746035167370, guid: 2ed77f13793de5c49a793e7a853b9b19, type: 2}
       propertyPath: m_Name
       value: caixa  def (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569746035167370, guid: 2ed77f13793de5c49a793e7a853b9b19, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ed77f13793de5c49a793e7a853b9b19, type: 2}
@@ -7602,6 +8032,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -7673,6 +8107,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -7753,6 +8191,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.8192026
       objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
   m_IsPrefabParent: 0
@@ -7831,6 +8273,10 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.5188679
       objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
   m_IsPrefabParent: 0
@@ -7872,6 +8318,10 @@ Prefab:
     - target: {fileID: 4555671054715980, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -7924,6 +8374,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -7970,6 +8424,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -8015,6 +8473,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -8081,7 +8543,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4216840456554204, guid: cc73753df2807db418f590a2d00a85ad, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114749631675143218, guid: cc73753df2807db418f590a2d00a85ad,
         type: 2}
@@ -8133,6 +8595,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -8254,6 +8720,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -8323,6 +8793,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1846483456278466, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a1d854e0fc3d9d4fa2cb4f28cc196a1, type: 2}
   m_IsPrefabParent: 0
@@ -8378,6 +8852,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -8457,6 +8935,10 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.5188679
       objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
   m_IsPrefabParent: 0
@@ -8507,6 +8989,10 @@ Prefab:
     - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
       propertyPath: m_Name
       value: VigaHorizontal (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
@@ -8606,6 +9092,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -8667,6 +9157,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -8718,6 +9212,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -8763,6 +9261,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -8820,6 +9322,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -8841,7 +9347,7 @@ GameObject:
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1984551827
 Transform:
@@ -8882,8 +9388,13 @@ Transform:
   - {fileID: 815102148}
   - {fileID: 333940465}
   - {fileID: 280397192}
+  - {fileID: 2033456539}
+  - {fileID: 303905158}
+  - {fileID: 1614989663}
+  - {fileID: 389032654}
+  - {fileID: 1071256082}
   m_Father: {fileID: 737523290}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1991510582
 Prefab:
@@ -8927,6 +9438,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -8983,6 +9498,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -9096,6 +9615,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaVertical (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
   m_IsPrefabParent: 0
@@ -9141,6 +9664,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -9188,6 +9715,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -9234,6 +9765,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -9247,7 +9782,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 737523290}
+    m_TransformParent: {fileID: 1984551827}
     m_Modifications:
     - target: {fileID: 4239587470589456, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -9279,11 +9814,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4239587470589456, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1821863243283584, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
       propertyPath: m_Name
       value: Background (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864500159373620, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821863243283584, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651365835926050, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6cf40e2f4f7ae6b49a0cfe1a69fa2c3c, type: 2}
@@ -9340,6 +9887,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -9401,6 +9952,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.52
       objectReference: {fileID: 0}
+    - target: {fileID: 1987384463197350, guid: 41a4b7c4714bd284c8b2fad5b0d4762d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41a4b7c4714bd284c8b2fad5b0d4762d, type: 2}
   m_IsPrefabParent: 0
@@ -9451,6 +10006,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
@@ -9508,6 +10067,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -9554,6 +10117,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -9575,7 +10142,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2101708401
 Transform:
@@ -9688,6 +10255,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -9782,6 +10353,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1387629228127468, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5628d043ff550040b02c7c51b21b00b, type: 2}
   m_IsPrefabParent: 0
@@ -9874,6 +10449,10 @@ Prefab:
       propertyPath: m_Name
       value: VigaHorizontal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1003126625768162, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b548ee9570084a44e8241fd0ca19429d, type: 2}
   m_IsPrefabParent: 0
@@ -9919,6 +10498,10 @@ Prefab:
     - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
       propertyPath: m_Name
       value: VigaVertical (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711901420514048, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a7d3159bec273c4684d11d67f6aafc2, type: 2}
