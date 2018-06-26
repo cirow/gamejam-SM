@@ -12,7 +12,7 @@ public class xplosion : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        AudioManager.instance.PlayXplosion();
 	}
 	
 	// Update is called once per frame

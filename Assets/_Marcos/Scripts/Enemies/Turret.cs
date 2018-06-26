@@ -33,6 +33,7 @@ public class Turret : Enemy {
     public void Shoot () {
         TurretProjectile newProjectile = Instantiate (projectile, muzzle.position, muzzle.rotation) as TurretProjectile;
         newProjectile.speed = projectileSpeed;
+        AudioManager.instance.PlayTurret();
     }
 
     private void OnDrawGizmosSelected () {

@@ -277,3 +277,5 @@ MonoBehaviour:
   disableSFX: {fileID: 8300000, guid: fd6a8c407212c3748b884c0d698ebfea, type: 3}
   jumpSFX: {fileID: 8300000, guid: 264daa2980df9b641a1a5a4393ca3698, type: 3}
   toastSFX: {fileID: 8300000, guid: 8975d044c570b934cb551cb05588b2a1, type: 3}
+  xplosionSFX: {fileID: 8300000, guid: 569b000bdb9328d4e8334cecae08b9fd, type: 3}
+  turret: {fileID: 8300000, guid: 16054069f6f70ca47be776e0cb036519, type: 3}

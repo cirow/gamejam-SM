@@ -16,10 +16,13 @@ public class AudioManager : MonoBehaviour
 	private AudioClip jumpSFX;
 	[SerializeField]
 	private AudioClip toastSFX;
+    [SerializeField]
+    private AudioClip xplosionSFX;
+    [SerializeField]
+    private AudioClip turret;
 
-
-	// Use this for initialization
-	private void Awake()
+    // Use this for initialization
+    private void Awake()
 	{
 		if (instance != null)
 		{
@@ -46,23 +49,30 @@ public class AudioManager : MonoBehaviour
 
     public void PlayDisable()
     {
-        backgroundSource.PlayOneShot(disableSFX);
         sourceSFX.PlayOneShot(disableSFX);
     }
 
 	public void PlayJump()
 	{
-		backgroundSource.PlayOneShot(jumpSFX);
 		sourceSFX.PlayOneShot(jumpSFX);
 	}
 
 	public void PlayToast()
 	{
-		backgroundSource.PlayOneShot(toastSFX);
 		sourceSFX.PlayOneShot(toastSFX);
 	}
 
-	public void PlayBackgroundAudio(bool play)
+    public void PlayXplosion()
+    {
+		sourceSFX.PlayOneShot(xplosionSFX);
+    }
+
+    public void PlayTurret()
+    {
+        sourceSFX.PlayOneShot(turret);
+    }
+
+    public void PlayBackgroundAudio(bool play)
 	{
 		if (play)
 		{
